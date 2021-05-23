@@ -44,7 +44,7 @@ int isPawnMovable(char *board, char sourceCol, int sourceRow, char targetCol, in
 int isPieceMovable(char *board, char sc, int sr, char tc, int tr);
 
 int main() {
-    char board[BOARD_SIZE * BOARD_SIZE], empty; // TOP CHESS: Black , TOP CHESS : Blace
+    char board[BOARD_SIZE * BOARD_SIZE], empty; // TOP CHESS: Black , BOTTOM CHESS : White
     int player = 1; /* 1 white, 0 black */
     char sc, tc; /* source/target cols */
     int sr, tr; /* source/target rows */
